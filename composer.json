@@ -1,0 +1,20 @@
+{
+    "name": "xande/aula",
+    "require": {
+        "symfony/var-dumper": "^7.0",
+        "php-di/php-di": "^7.0",
+        "league/plates": "^3.5"
+    },
+    "autoload":{
+        "psr-4":{
+            "app\\":"app/",
+            "core\\":"core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexandre Cardoso",
+            "email": "xandecar@hotmail.com"
+        }
+    ]
+}
